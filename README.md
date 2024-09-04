@@ -18,6 +18,7 @@ This report outlines the data cleaning procedures performed on the biodata of a 
   ```python
   data[["Fullname", "Email", "City of Birth", "Gender"]] = data["Bio data with information on name Email age City of Birth and Gender"].str.split(r"Email|;#Years|Gender", expand=True)
   ```
+![clean1](https://github.com/user-attachments/assets/869af913-41f1-46ef-9914-6aa59055df27)
 
 ## 3. Dropping the Original Bio Data Column
 - After extracting the relevant information, the original `"Bio data with information on name Email age City of Birth and Gender"` column was deleted from the DataFrame:
