@@ -26,6 +26,7 @@ This report outlines the data cleaning procedures performed on the biodata of a 
   ```python
   del data["Bio data with information on name Email age City of Birth and Gender"]
   ```
+![clean2](https://github.com/user-attachments/assets/481d1bc6-2c1c-435c-ad55-e9700d625f2e)
 
 ## 4. Extracting and Cleaning Age Information
 - The `Age` was extracted from the `Email` column (which still contained age digits) using a regular expression:
